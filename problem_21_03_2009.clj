@@ -1,7 +1,9 @@
-#_( problem:
+; comma is comment
+; #_ is commenting the next occurence of ()
 
-	   да видим как излиза кирилицата	
-
+#_(
+	problem:
+	задача 5. Намира броя на подсписъците на даден списък
   (count-sub '(1 1) '(1 1 1 2 1 1))
   -> 3
 )
